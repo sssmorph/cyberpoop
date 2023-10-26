@@ -179,3 +179,155 @@ html {
     width: 580px;
     margin-top: 8px;
 }
+
+.products {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.products h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+}
+.products-card {
+    width: 380px;
+    height: 435px;
+    background-color: #f5f5f5;
+}
+.products-card:hover{
+    border: #607ce6 solid 1px;
+}
+.card-image {
+    width: 200px;
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-right: 156px;
+}
+.ci1{
+    height: 194px;
+    margin-bottom: 107px;
+}
+.ci2{
+    height: 112px;
+    margin-bottom:187px;
+}
+.ci3{
+    height: 158px;
+    margin-bottom:143px;
+}
+.ci4{
+    height: 149px;
+    margin-bottom:152px;
+}
+.ci5{
+    height: 141px;
+    margin-bottom:160px;
+}
+.ci6{
+    height: 138px;
+    margin-bottom:163px;
+}
+
+.card-name {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    margin-top:0px;
+}
+.card-link {
+    color: #607ce6;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+.card-link:hover{
+    cursor: pointer;
+}
+.card-link-image{
+    margin-left: 8px;
+}
+
+.news{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.news-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 32px;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+
+}
+.news1 {
+    background-color: #f5f5f5;
+    width: 380px;
+    height: 478px;
+}
+.news2 {
+    background-color: #f5f5f5;
+    width: 380px;
+    height: 478px;
+}
+.news3 {
+    background-color: #f5f5f5;
+    width: 380px;
+    height: 478px;
+}
+.news-image {
+    margin-bottom: 16px;
+}
+.news-desc{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+.read-more {
+    margin-bottom:25px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.read-more-button {
+    color: #607ce6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    margin-right:183px;
+    margin-left: 16px;
+    
+}
+
+.date-of-publication {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:gray
+}

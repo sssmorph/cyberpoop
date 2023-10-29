@@ -36,7 +36,7 @@
                     <li class="header-nav-links__item"><a href="#" class="header-nav-links__link no-right-margin">Контакты</a></li>
                 </ul>
             </nav>    
-            <a href="#" target="_blank" class="call-me"><img src="img/phone 1.svg" alt="Позвонить" class="call-me-image">Перезвоните мне</a>
+            <a href="#" target="_blank" class="call-me open-popup"><img src="img/phone 1.svg" alt="Позвонить" class="call-me-image">Перезвоните мне</a>
         </div>
     </header>
     <!-- Первый блок с информацией -->
@@ -126,8 +126,36 @@
                 </section>
             </div>
         </div>
-    </main>
+        <footer >
 
+        </footer>
+    </main>
+    <div class="popup__bg">
+        <form class="popup">
+            <img src="img/close.svg" alt="" class="close-popup">
+            <label>
+                <input type="text" name="name">
+                <div class="label__text">
+                    Ваше имя
+                </div>
+            </label>
+            <label>
+                <input type="tel" name="tel">
+                <div class="label__text">
+                    Ваш телефон
+                </div>
+            </label>
+            <label>
+                <textarea name="message"></textarea>
+                <div class="label__text">
+                    Ваше сообщение
+                </div>
+            </label>
+            <button type="submit">
+                Отправить
+            </button>
+        </form>
+    </div>
 </body>
 <script src="scripts/script.js">
 
